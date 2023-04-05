@@ -1,0 +1,34 @@
+{
+  "name": "file-share",
+  "version": "1.0.0",
+  "description": "This is a file sharing ",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "shakil ahmed",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/storage": "^6.9.5",
+    "aws-sdk": "^2.1350.0",
+    "chai": "^4.3.7",
+    "chai-http": "^4.3.0",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "mime": "^3.0.0",
+    "mocha": "^10.2.0",
+    "mysql2": "^3.2.0",
+    "node-cron": "^3.0.2",
+    "nodemon": "^2.0.22",
+    "process": "^0.11.10",
+    "request-ip": "^3.3.0",
+    "sequelize": "^6.30.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.6.0"
+  }
+}
